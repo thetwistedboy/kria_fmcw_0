@@ -1,0 +1,612 @@
+#Other net   PACKAGE_PIN D6       - GND                       Bank   0 - DXN
+#Other net   PACKAGE_PIN D7       - GND                       Bank   0 - DXP
+#Other net   PACKAGE_PIN A6       - PLADC_AGND                Bank   0 - GNDADC
+#Other net   PACKAGE_PIN A5       - VCC_PL_0V72               Bank   0 - POR_OVERRIDE
+#Other net   PACKAGE_PIN A8       - FPGA_PUDC_B               Bank   0 - PUDC_B
+#Other net   PACKAGE_PIN A7       - VCC_PLADC                 Bank   0 - VCCADC
+#Other net   PACKAGE_PIN C6       - VAUX_5V0_N                Bank   0 - VN
+#Other net   PACKAGE_PIN B7       - VAUX_5V0_P                Bank   0 - VP
+#Other net   PACKAGE_PIN B6       - PLADC_AGND                Bank   0 - VREFN
+#Other net   PACKAGE_PIN C7       - PLADC_AGND                Bank   0 - VREFP
+set_property PACKAGE_PIN A10      [get_ports "BANK26_12P_NC"] ;# Bank  26 VCCO - VCCO_HDA - IO_L12N_AD0N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "BANK26_12P_NC"] ;# Bank  26 VCCO - VCCO_HDA - IO_L12N_AD0N_26
+set_property PACKAGE_PIN A11      [get_ports "HDA22"] ;# Bank  26 VCCO - VCCO_HDA - IO_L12P_AD0P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA22"] ;# Bank  26 VCCO - VCCO_HDA - IO_L12P_AD0P_26
+set_property PACKAGE_PIN A9       [get_ports "HDA21"] ;# Bank  26 VCCO - VCCO_HDA - IO_L11N_AD1N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA21"] ;# Bank  26 VCCO - VCCO_HDA - IO_L11N_AD1N_26
+set_property PACKAGE_PIN B9       [get_ports "HDA20"] ;# Bank  26 VCCO - VCCO_HDA - IO_L11P_AD1P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA20"] ;# Bank  26 VCCO - VCCO_HDA - IO_L11P_AD1P_26
+set_property PACKAGE_PIN B10      [get_ports "HDA19"] ;# Bank  26 VCCO - VCCO_HDA - IO_L10N_AD2N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA19"] ;# Bank  26 VCCO - VCCO_HDA - IO_L10N_AD2N_26
+set_property PACKAGE_PIN C10      [get_ports "HDA18"] ;# Bank  26 VCCO - VCCO_HDA - IO_L10P_AD2P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA18"] ;# Bank  26 VCCO - VCCO_HDA - IO_L10P_AD2P_26
+set_property PACKAGE_PIN D9       [get_ports "HDA15"] ;# Bank  26 VCCO - VCCO_HDA - IO_L9N_AD3N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA15"] ;# Bank  26 VCCO - VCCO_HDA - IO_L9N_AD3N_26
+set_property PACKAGE_PIN D10      [get_ports "HDA14"] ;# Bank  26 VCCO - VCCO_HDA - IO_L9P_AD3P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA14"] ;# Bank  26 VCCO - VCCO_HDA - IO_L9P_AD3P_26
+set_property PACKAGE_PIN C13      [get_ports "HDA17"] ;# Bank  26 VCCO - VCCO_HDA - IO_L8N_HDGC_AD4N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA17"] ;# Bank  26 VCCO - VCCO_HDA - IO_L8N_HDGC_AD4N_26
+set_property PACKAGE_PIN D13      [get_ports "HDA16_CC"] ;# Bank  26 VCCO - VCCO_HDA - IO_L8P_HDGC_AD4P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA16_CC"] ;# Bank  26 VCCO - VCCO_HDA - IO_L8P_HDGC_AD4P_26
+set_property PACKAGE_PIN E12      [get_ports "HDA13"] ;# Bank  26 VCCO - VCCO_HDA - IO_L7N_HDGC_AD5N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA13"] ;# Bank  26 VCCO - VCCO_HDA - IO_L7N_HDGC_AD5N_26
+set_property PACKAGE_PIN F13      [get_ports "HDA12"] ;# Bank  26 VCCO - VCCO_HDA - IO_L7P_HDGC_AD5P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA12"] ;# Bank  26 VCCO - VCCO_HDA - IO_L7P_HDGC_AD5P_26
+set_property PACKAGE_PIN F12      [get_ports "HDA09"] ;# Bank  26 VCCO - VCCO_HDA - IO_L6N_HDGC_AD6N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA09"] ;# Bank  26 VCCO - VCCO_HDA - IO_L6N_HDGC_AD6N_26
+set_property PACKAGE_PIN G12      [get_ports "HDA08_CC"] ;# Bank  26 VCCO - VCCO_HDA - IO_L6P_HDGC_AD6P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA08_CC"] ;# Bank  26 VCCO - VCCO_HDA - IO_L6P_HDGC_AD6P_26
+set_property PACKAGE_PIN G13      [get_ports "HDA01"] ;# Bank  26 VCCO - VCCO_HDA - IO_L5N_HDGC_AD7N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA01"] ;# Bank  26 VCCO - VCCO_HDA - IO_L5N_HDGC_AD7N_26
+set_property PACKAGE_PIN H13      [get_ports "HDA00_CC"] ;# Bank  26 VCCO - VCCO_HDA - IO_L5P_HDGC_AD7P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA00_CC"] ;# Bank  26 VCCO - VCCO_HDA - IO_L5P_HDGC_AD7P_26
+set_property PACKAGE_PIN E9       [get_ports "HDA11"] ;# Bank  26 VCCO - VCCO_HDA - IO_L4N_AD8N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA11"] ;# Bank  26 VCCO - VCCO_HDA - IO_L4N_AD8N_26
+set_property PACKAGE_PIN E10      [get_ports "HDA10"] ;# Bank  26 VCCO - VCCO_HDA - IO_L4P_AD8P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA10"] ;# Bank  26 VCCO - VCCO_HDA - IO_L4P_AD8P_26
+set_property PACKAGE_PIN F9       [get_ports "HDA07"] ;# Bank  26 VCCO - VCCO_HDA - IO_L3N_AD9N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA07"] ;# Bank  26 VCCO - VCCO_HDA - IO_L3N_AD9N_26
+set_property PACKAGE_PIN F10      [get_ports "HDA06"] ;# Bank  26 VCCO - VCCO_HDA - IO_L3P_AD9P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA06"] ;# Bank  26 VCCO - VCCO_HDA - IO_L3P_AD9P_26
+set_property PACKAGE_PIN G9       [get_ports "HDA05"] ;# Bank  26 VCCO - VCCO_HDA - IO_L2N_AD10N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA05"] ;# Bank  26 VCCO - VCCO_HDA - IO_L2N_AD10N_26
+set_property PACKAGE_PIN G10      [get_ports "HDA04"] ;# Bank  26 VCCO - VCCO_HDA - IO_L2P_AD10P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA04"] ;# Bank  26 VCCO - VCCO_HDA - IO_L2P_AD10P_26
+set_property PACKAGE_PIN H9       [get_ports "HDA03"] ;# Bank  26 VCCO - VCCO_HDA - IO_L1N_AD11N_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA03"] ;# Bank  26 VCCO - VCCO_HDA - IO_L1N_AD11N_26
+set_property PACKAGE_PIN H10      [get_ports "HDA02"] ;# Bank  26 VCCO - VCCO_HDA - IO_L1P_AD11P_26
+set_property IOSTANDARD  LVCMOSxx [get_ports "HDA02"] ;# Bank  26 VCCO - VCCO_HDA - IO_L1P_AD11P_26
+set_property PACKAGE_PIN D4       [get_ports "HPA28"] ;# Bank  66 VCCO -          - IO_T3U_N12_66
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA28"] ;# Bank  66 VCCO -          - IO_T3U_N12_66
+set_property PACKAGE_PIN A3       [get_ports "HPA20_CC_N"] ;# Bank  66 VCCO -          - IO_L12N_T1U_N11_GC_66
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA20_CC_N"] ;# Bank  66 VCCO -          - IO_L12N_T1U_N11_GC_66
+set_property PACKAGE_PIN A4       [get_ports "HPA20_CC_P"] ;# Bank  66 VCCO -          - IO_L12P_T1U_N10_GC_66
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA20_CC_P"] ;# Bank  66 VCCO -          - IO_L12P_T1U_N10_GC_66
+set_property PACKAGE_PIN B4       [get_ports "HPA21_N"] ;# Bank  66 VCCO -          - IO_L11N_T1U_N9_GC_66
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA21_N"] ;# Bank  66 VCCO -          - IO_L11N_T1U_N9_GC_66
+set_property PACKAGE_PIN C4       [get_ports "HPA21_P"] ;# Bank  66 VCCO -          - IO_L11P_T1U_N8_GC_66
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA21_P"] ;# Bank  66 VCCO -          - IO_L11P_T1U_N8_GC_66
+set_property PACKAGE_PIN E4       [get_ports "VRP_BANK66"] ;# Bank  66 VCCO -          - IO_T0U_N12_VRP_66
+set_property IOSTANDARD  LVCMOSxx [get_ports "VRP_BANK66"] ;# Bank  66 VCCO -          - IO_T0U_N12_VRP_66
+#Other net   PACKAGE_PIN E6       - CDSDefaultInput_2p5v      Bank  66 - VREF_66
+set_property PACKAGE_PIN E2       [get_ports "HPA19_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L24N_T3U_N11_PERSTN0_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA19_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L24N_T3U_N11_PERSTN0_65
+set_property PACKAGE_PIN D2       [get_ports "HPA19_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L24P_T3U_N10_PERSTN1_I2C_SDA_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA19_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L24P_T3U_N10_PERSTN1_I2C_SDA_65
+set_property PACKAGE_PIN D1       [get_ports "HPA18_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L23N_T3U_N9_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA18_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L23N_T3U_N9_65
+set_property PACKAGE_PIN C1       [get_ports "HPA18_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L23P_T3U_N8_I2C_SCLK_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA18_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L23P_T3U_N8_I2C_SCLK_65
+set_property PACKAGE_PIN F1       [get_ports "HPA17_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L22N_T3U_N7_DBC_AD0N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA17_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L22N_T3U_N7_DBC_AD0N_65
+set_property PACKAGE_PIN E1       [get_ports "HPA17_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L22P_T3U_N6_DBC_AD0P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA17_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L22P_T3U_N6_DBC_AD0P_65
+set_property PACKAGE_PIN G6       [get_ports "HPA16_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L21N_T3L_N5_AD8N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA16_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L21N_T3L_N5_AD8N_65
+set_property PACKAGE_PIN F7       [get_ports "HPA16_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L21P_T3L_N4_AD8P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA16_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L21P_T3L_N4_AD8P_65
+set_property PACKAGE_PIN G1       [get_ports "HPA24_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L20N_T3L_N3_AD1N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA24_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L20N_T3L_N3_AD1N_65
+set_property PACKAGE_PIN G2       [get_ports "HPA24_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L20P_T3L_N2_AD1P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA24_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L20P_T3L_N2_AD1P_65
+set_property PACKAGE_PIN H1       [get_ports "HPA15_CC_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L19N_T3L_N1_DBC_AD9N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA15_CC_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L19N_T3L_N1_DBC_AD9N_65
+set_property PACKAGE_PIN H2       [get_ports "HPA15_CC_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L19P_T3L_N0_DBC_AD9P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA15_CC_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L19P_T3L_N0_DBC_AD9P_65
+set_property PACKAGE_PIN B2       [get_ports "HPA27"] ;# Bank  65 VCCO - VCCO_HPA - IO_T3U_N12_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA27"] ;# Bank  65 VCCO - VCCO_HPA - IO_T3U_N12_65
+set_property PACKAGE_PIN F4       [get_ports "HPA26"] ;# Bank  65 VCCO - VCCO_HPA - IO_T2U_N12_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA26"] ;# Bank  65 VCCO - VCCO_HPA - IO_T2U_N12_65
+set_property PACKAGE_PIN K4       [get_ports "HPA23_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L18N_T2U_N11_AD2N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA23_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L18N_T2U_N11_AD2N_65
+set_property PACKAGE_PIN J4       [get_ports "HPA23_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L18P_T2U_N10_AD2P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA23_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L18P_T2U_N10_AD2P_65
+set_property PACKAGE_PIN H7       [get_ports "HPA14_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L17N_T2U_N9_AD10N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA14_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L17N_T2U_N9_AD10N_65
+set_property PACKAGE_PIN G7       [get_ports "HPA14_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L17P_T2U_N8_AD10P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA14_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L17P_T2U_N8_AD10P_65
+set_property PACKAGE_PIN K1       [get_ports "HPA13_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L16N_T2U_N7_QBC_AD3N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA13_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L16N_T2U_N7_QBC_AD3N_65
+set_property PACKAGE_PIN J1       [get_ports "HPA13_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L16P_T2U_N6_QBC_AD3P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA13_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L16P_T2U_N6_QBC_AD3P_65
+set_property PACKAGE_PIN J7       [get_ports "HPA12_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L15N_T2L_N5_AD11N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA12_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L15N_T2L_N5_AD11N_65
+set_property PACKAGE_PIN H8       [get_ports "HPA12_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L15P_T2L_N4_AD11P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA12_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L15P_T2L_N4_AD11P_65
+set_property PACKAGE_PIN M1       [get_ports "HPA11_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L14N_T2L_N3_GC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA11_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L14N_T2L_N3_GC_65
+set_property PACKAGE_PIN L2       [get_ports "HPA11_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L14P_T2L_N2_GC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA11_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L14P_T2L_N2_GC_65
+set_property PACKAGE_PIN L1       [get_ports "HPA10_CC_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L13N_T2L_N1_GC_QBC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA10_CC_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L13N_T2L_N1_GC_QBC_65
+set_property PACKAGE_PIN K2       [get_ports "HPA10_CC_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L13P_T2L_N0_GC_QBC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA10_CC_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L13P_T2L_N0_GC_QBC_65
+set_property PACKAGE_PIN P1       [get_ports "HPA_CLK0_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L12N_T1U_N11_GC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA_CLK0_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L12N_T1U_N11_GC_65
+set_property PACKAGE_PIN P2       [get_ports "HPA_CLK0_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L12P_T1U_N10_GC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA_CLK0_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L12P_T1U_N10_GC_65
+set_property PACKAGE_PIN N1       [get_ports "HPA09_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L11N_T1U_N9_GC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA09_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L11N_T1U_N9_GC_65
+set_property PACKAGE_PIN N2       [get_ports "HPA09_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L11P_T1U_N8_GC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA09_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L11P_T1U_N8_GC_65
+set_property PACKAGE_PIN T1       [get_ports "HPA08_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L10N_T1U_N7_QBC_AD4N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA08_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L10N_T1U_N7_QBC_AD4N_65
+set_property PACKAGE_PIN R1       [get_ports "HPA08_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L10P_T1U_N6_QBC_AD4P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA08_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L10P_T1U_N6_QBC_AD4P_65
+set_property PACKAGE_PIN K6       [get_ports "HPA07_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L9N_T1L_N5_AD12N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA07_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L9N_T1L_N5_AD12N_65
+set_property PACKAGE_PIN K7       [get_ports "HPA07_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L9P_T1L_N4_AD12P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA07_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L9P_T1L_N4_AD12P_65
+set_property PACKAGE_PIN V3       [get_ports "HPA06_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L8N_T1L_N3_AD5N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA06_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L8N_T1L_N3_AD5N_65
+set_property PACKAGE_PIN V4       [get_ports "HPA06_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L8P_T1L_N2_AD5P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA06_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L8P_T1L_N2_AD5P_65
+set_property PACKAGE_PIN U2       [get_ports "HPA05_CC_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L7N_T1L_N1_QBC_AD13N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA05_CC_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L7N_T1L_N1_QBC_AD13N_65
+set_property PACKAGE_PIN T2       [get_ports "HPA05_CC_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L7P_T1L_N0_QBC_AD13P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA05_CC_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L7P_T1L_N0_QBC_AD13P_65
+set_property PACKAGE_PIN L6       [get_ports "HPA25"] ;# Bank  65 VCCO - VCCO_HPA - IO_T1U_N12_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA25"] ;# Bank  65 VCCO - VCCO_HPA - IO_T1U_N12_65
+set_property PACKAGE_PIN M4       [get_ports "VRP_BANK"] ;# Bank  65 VCCO - VCCO_HPA - IO_T0U_N12_VRP_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "VRP_BANK"] ;# Bank  65 VCCO - VCCO_HPA - IO_T0U_N12_VRP_65
+set_property PACKAGE_PIN V5       [get_ports "HPA22_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L6N_T0U_N11_AD6N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA22_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L6N_T0U_N11_AD6N_65
+set_property PACKAGE_PIN V6       [get_ports "HPA22_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L6P_T0U_N10_AD6P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA22_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L6P_T0U_N10_AD6P_65
+set_property PACKAGE_PIN U4       [get_ports "HPA04_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L5N_T0U_N9_AD14N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA04_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L5N_T0U_N9_AD14N_65
+set_property PACKAGE_PIN T4       [get_ports "HPA04_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L5P_T0U_N8_AD14P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA04_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L5P_T0U_N8_AD14P_65
+set_property PACKAGE_PIN U5       [get_ports "HPA03_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L4N_T0U_N7_DBC_AD7N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA03_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L4N_T0U_N7_DBC_AD7N_65
+set_property PACKAGE_PIN T6       [get_ports "HPA03_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L4P_T0U_N6_DBC_AD7P_SMBALERT_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA03_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L4P_T0U_N6_DBC_AD7P_SMBALERT_65
+set_property PACKAGE_PIN N7       [get_ports "HPA02_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L3N_T0L_N5_AD15N_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA02_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L3N_T0L_N5_AD15N_65
+set_property PACKAGE_PIN M7       [get_ports "HPA02_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L3P_T0L_N4_AD15P_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA02_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L3P_T0L_N4_AD15P_65
+set_property PACKAGE_PIN P4       [get_ports "HPA01_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L2N_T0L_N3_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA01_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L2N_T0L_N3_65
+set_property PACKAGE_PIN N4       [get_ports "HPA01_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L2P_T0L_N2_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA01_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L2P_T0L_N2_65
+set_property PACKAGE_PIN P6       [get_ports "HPA00_CC_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L1N_T0L_N1_DBC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA00_CC_N"] ;# Bank  65 VCCO - VCCO_HPA - IO_L1N_T0L_N1_DBC_65
+set_property PACKAGE_PIN N6       [get_ports "HPA00_CC_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L1P_T0L_N0_DBC_65
+set_property IOSTANDARD  LVCMOSxx [get_ports "HPA00_CC_P"] ;# Bank  65 VCCO - VCCO_HPA - IO_L1P_T0L_N0_DBC_65
+#Other net   PACKAGE_PIN J6       - VREF65_NC                 Bank  65 - VREF_65
+#Other net   PACKAGE_PIN G18      - MIO0_QSPI_CLK             Bank 500 - PS_MIO0
+#Other net   PACKAGE_PIN K21      - MIO1_QSPI_DQ1             Bank 500 - PS_MIO1
+#Other net   PACKAGE_PIN F20      - MIO10_SPI_MISO            Bank 500 - PS_MIO10
+#Other net   PACKAGE_PIN L23      - MIO11_SPI_MOSI            Bank 500 - PS_MIO11
+#Other net   PACKAGE_PIN K20      - MIO12_FWUEN_C2M_L         Bank 500 - PS_MIO12
+#Other net   PACKAGE_PIN H15      - MIO13_EMMC_DAT0           Bank 500 - PS_MIO13
+#Other net   PACKAGE_PIN J21      - MIO14_EMMC_DAT1           Bank 500 - PS_MIO14
+#Other net   PACKAGE_PIN J16      - MIO15_EMMC_DAT2           Bank 500 - PS_MIO15
+#Other net   PACKAGE_PIN H21      - MIO16_EMMC_DAT3           Bank 500 - PS_MIO16
+#Other net   PACKAGE_PIN H23      - MIO17_EMMC_DAT4           Bank 500 - PS_MIO17
+#Other net   PACKAGE_PIN L16      - MIO18_EMMC_DAT5           Bank 500 - PS_MIO18
+#Other net   PACKAGE_PIN H19      - MIO19_EMMC_DAT6           Bank 500 - PS_MIO19
+#Other net   PACKAGE_PIN F18      - MIO2_QSPI_DQ2             Bank 500 - PS_MIO2
+#Other net   PACKAGE_PIN K23      - MIO20_EMMC_DAT7           Bank 500 - PS_MIO20
+#Other net   PACKAGE_PIN H18      - MIO21_EMMC_CMD            Bank 500 - PS_MIO21
+#Other net   PACKAGE_PIN J23      - FPGA_MIO22_EMMC_CLK       Bank 500 - PS_MIO22
+#Other net   PACKAGE_PIN L18      - MIO23_EMMC_RST_B          Bank 500 - PS_MIO23
+#Other net   PACKAGE_PIN K24      - I2C_SCL                   Bank 500 - PS_MIO24
+#Other net   PACKAGE_PIN J18      - I2C_SDA                   Bank 500 - PS_MIO25
+#Other net   PACKAGE_PIN H17      - MIO3_QSPI_DQ3             Bank 500 - PS_MIO3
+#Other net   PACKAGE_PIN L20      - MIO4_QSPI_DQ0             Bank 500 - PS_MIO4
+#Other net   PACKAGE_PIN H22      - MIO5_QSPI_CS_B            Bank 500 - PS_MIO5
+#Other net   PACKAGE_PIN L21      - MIO6_SPI_CLK              Bank 500 - PS_MIO6
+#Other net   PACKAGE_PIN K25      - MIO7_LED1                 Bank 500 - PS_MIO7
+#Other net   PACKAGE_PIN J20      - MIO8_LED2                 Bank 500 - PS_MIO8
+#Other net   PACKAGE_PIN H16      - MIO9_SPI_CS_B             Bank 500 - PS_MIO9
+#Other net   PACKAGE_PIN L10      - MIO26                     Bank 501 - PS_MIO26
+#Other net   PACKAGE_PIN L9       - MIO27                     Bank 501 - PS_MIO27
+#Other net   PACKAGE_PIN J11      - MIO28                     Bank 501 - PS_MIO28
+#Other net   PACKAGE_PIN M10      - MIO29                     Bank 501 - PS_MIO29
+#Other net   PACKAGE_PIN K14      - MIO30                     Bank 501 - PS_MIO30
+#Other net   PACKAGE_PIN J12      - MIO31_SHUTDOWN            Bank 501 - PS_MIO31
+#Other net   PACKAGE_PIN M9       - RSV_FPGA_MIO32            Bank 501 - PS_MIO32
+#Other net   PACKAGE_PIN H14      - MIO33_PL_PWR_EN           Bank 501 - PS_MIO33
+#Other net   PACKAGE_PIN K13      - MIO34_PWR_KILL_L          Bank 501 - PS_MIO34
+#Other net   PACKAGE_PIN K15      - MIO35                     Bank 501 - PS_MIO35
+#Other net   PACKAGE_PIN M12      - MIO36                     Bank 501 - PS_MIO36
+#Other net   PACKAGE_PIN N9       - MIO37                     Bank 501 - PS_MIO37
+#Other net   PACKAGE_PIN K12      - MIO38                     Bank 501 - PS_MIO38
+#Other net   PACKAGE_PIN K9       - MIO39                     Bank 501 - PS_MIO39
+#Other net   PACKAGE_PIN L15      - MIO40                     Bank 501 - PS_MIO40
+#Other net   PACKAGE_PIN L13      - MIO41                     Bank 501 - PS_MIO41
+#Other net   PACKAGE_PIN J9       - MIO42                     Bank 501 - PS_MIO42
+#Other net   PACKAGE_PIN J15      - MIO43                     Bank 501 - PS_MIO43
+#Other net   PACKAGE_PIN M13      - MIO44                     Bank 501 - PS_MIO44
+#Other net   PACKAGE_PIN N10      - MIO45                     Bank 501 - PS_MIO45
+#Other net   PACKAGE_PIN N14      - MIO46                     Bank 501 - PS_MIO46
+#Other net   PACKAGE_PIN N13      - MIO47                     Bank 501 - PS_MIO47
+#Other net   PACKAGE_PIN N12      - MIO48                     Bank 501 - PS_MIO48
+#Other net   PACKAGE_PIN M14      - MIO49                     Bank 501 - PS_MIO49
+#Other net   PACKAGE_PIN J10      - MIO50                     Bank 501 - PS_MIO50
+#Other net   PACKAGE_PIN K10      - MIO51                     Bank 501 - PS_MIO51
+#Other net   PACKAGE_PIN F16      - MIO52                     Bank 502 - PS_MIO52
+#Other net   PACKAGE_PIN G15      - MIO53                     Bank 502 - PS_MIO53
+#Other net   PACKAGE_PIN E16      - MIO54                     Bank 502 - PS_MIO54
+#Other net   PACKAGE_PIN D14      - MIO55                     Bank 502 - PS_MIO55
+#Other net   PACKAGE_PIN F15      - MIO56                     Bank 502 - PS_MIO56
+#Other net   PACKAGE_PIN C19      - MIO57                     Bank 502 - PS_MIO57
+#Other net   PACKAGE_PIN D18      - MIO58                     Bank 502 - PS_MIO58
+#Other net   PACKAGE_PIN C18      - MIO59                     Bank 502 - PS_MIO59
+#Other net   PACKAGE_PIN C15      - MIO60                     Bank 502 - PS_MIO60
+#Other net   PACKAGE_PIN C16      - MIO61                     Bank 502 - PS_MIO61
+#Other net   PACKAGE_PIN B16      - MIO62                     Bank 502 - PS_MIO62
+#Other net   PACKAGE_PIN D15      - MIO63                     Bank 502 - PS_MIO63
+#Other net   PACKAGE_PIN B15      - MIO64                     Bank 502 - PS_MIO64
+#Other net   PACKAGE_PIN B13      - MIO65                     Bank 502 - PS_MIO65
+#Other net   PACKAGE_PIN B12      - MIO66                     Bank 502 - PS_MIO66
+#Other net   PACKAGE_PIN A12      - MIO67                     Bank 502 - PS_MIO67
+#Other net   PACKAGE_PIN A13      - MIO68                     Bank 502 - PS_MIO68
+#Other net   PACKAGE_PIN A14      - MIO69                     Bank 502 - PS_MIO69
+#Other net   PACKAGE_PIN B19      - MIO70                     Bank 502 - PS_MIO70
+#Other net   PACKAGE_PIN A15      - MIO71                     Bank 502 - PS_MIO71
+#Other net   PACKAGE_PIN B18      - MIO72                     Bank 502 - PS_MIO72
+#Other net   PACKAGE_PIN A17      - MIO73                     Bank 502 - PS_MIO73
+#Other net   PACKAGE_PIN A18      - MIO74                     Bank 502 - PS_MIO74
+#Other net   PACKAGE_PIN A16      - MIO75                     Bank 502 - PS_MIO75
+#Other net   PACKAGE_PIN A20      - MIO76                     Bank 502 - PS_MIO76
+#Other net   PACKAGE_PIN A19      - MIO77                     Bank 502 - PS_MIO77
+#Other net   PACKAGE_PIN A25      - PS_DONE                   Bank 503 - PS_DONE
+#Other net   PACKAGE_PIN C20      - PS_ERROR_OUT_M2C          Bank 503 - PS_ERROR_OUT
+#Other net   PACKAGE_PIN A22      - PS_ERROR_STATUS_M2C       Bank 503 - PS_ERROR_STATUS
+#Other net   PACKAGE_PIN F24      - PS_INIT_B                 Bank 503 - PS_INIT_B
+#Other net   PACKAGE_PIN E22      - JTAG_TCK_C2M              Bank 503 - PS_JTAG_TCK
+#Other net   PACKAGE_PIN F23      - JTAG_TDI_C2M              Bank 503 - PS_JTAG_TDI
+#Other net   PACKAGE_PIN B22      - JTAG_TDO_M2C              Bank 503 - PS_JTAG_TDO
+#Other net   PACKAGE_PIN A23      - JTAG_TMS_C2M              Bank 503 - PS_JTAG_TMS
+#Other net   PACKAGE_PIN B20      - MODE0_C2M                 Bank 503 - PS_MODE0
+#Other net   PACKAGE_PIN C23      - MODE1_C2M                 Bank 503 - PS_MODE1
+#Other net   PACKAGE_PIN C24      - MODE2_C2M                 Bank 503 - PS_MODE2
+#Other net   PACKAGE_PIN B23      - MODE3_C2M                 Bank 503 - PS_MODE3
+#Other net   PACKAGE_PIN C21      - PS_PADI                   Bank 503 - PS_PADI
+#Other net   PACKAGE_PIN C22      - PS_PADO                   Bank 503 - PS_PADO
+#Other net   PACKAGE_PIN A24      - PS_POR_L                  Bank 503 - PS_POR_B
+#Other net   PACKAGE_PIN G23      - PS_PROG_B                 Bank 503 - PS_PROG_B
+#Other net   PACKAGE_PIN B25      - PS_REF_CLK                Bank 503 - PS_REF_CLK
+#Other net   PACKAGE_PIN A21      - PS_SRST_C2M_L             Bank 503 - PS_SRST_B
+#Other net   PACKAGE_PIN U19      - LPDDR4_C0_0_CA_A[0]       Bank 504 - PS_DDR_A0
+#Other net   PACKAGE_PIN U22      - LPDDR4_C0_0_CA_A[1]       Bank 504 - PS_DDR_A1
+#Other net   PACKAGE_PIN T15      - LPDDR4_C0_0_CA_B[0]       Bank 504 - PS_DDR_A10
+#Other net   PACKAGE_PIN V16      - LPDDR4_C0_0_CA_B[1]       Bank 504 - PS_DDR_A11
+#Other net   PACKAGE_PIN V14      - LPDDR4_C0_0_CA_B[2]       Bank 504 - PS_DDR_A12
+#Other net   PACKAGE_PIN U13      - LPDDR4_C0_0_CA_B[3]       Bank 504 - PS_DDR_A13
+#Other net   PACKAGE_PIN V15      - LPDDR4_C0_0_CA_B[4]       Bank 504 - PS_DDR_A14
+#Other net   PACKAGE_PIN T13      - LPDDR4_C0_0_CA_B[5]       Bank 504 - PS_DDR_A15
+#Other net   PACKAGE_PIN U14      - CDSDefaultOutput_2p5v     Bank 504 - PS_DDR_A16
+#Other net   PACKAGE_PIN R13      - CDSDefaultOutput_2p5v     Bank 504 - PS_DDR_A17
+#Other net   PACKAGE_PIN T20      - LPDDR4_C0_0_CA_A[2]       Bank 504 - PS_DDR_A2
+#Other net   PACKAGE_PIN T21      - LPDDR4_C0_0_CA_A[3]       Bank 504 - PS_DDR_A3
+#Other net   PACKAGE_PIN T22      - LPDDR4_C0_0_CA_A[4]       Bank 504 - PS_DDR_A4
+#Other net   PACKAGE_PIN V19      - LPDDR4_C0_0_CA_A[5]       Bank 504 - PS_DDR_A5
+#Other net   PACKAGE_PIN T17      - CDSDefaultOutput_2p5v     Bank 504 - PS_DDR_A6
+#Other net   PACKAGE_PIN V20      - CDSDefaultOutput_2p5v     Bank 504 - PS_DDR_A7
+#Other net   PACKAGE_PIN T18      - CDSDefaultOutput_2p5v     Bank 504 - PS_DDR_A8
+#Other net   PACKAGE_PIN T14      - CDSDefaultOutput_2p5v     Bank 504 - PS_DDR_A9
+#Other net   PACKAGE_PIN U20      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_ACT_N
+#Other net   PACKAGE_PIN T26      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_ALERT_N
+#Other net   PACKAGE_PIN V21      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_BA0
+#Other net   PACKAGE_PIN V22      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_BA1
+#Other net   PACKAGE_PIN V23      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_BG0
+#Other net   PACKAGE_PIN T24      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_BG1
+#Other net   PACKAGE_PIN V18      - LPDDR4_C0_0_CK_T_A[0]     Bank 504 - PS_DDR_CK0
+#Other net   PACKAGE_PIN U16      - LPDDR4_C0_0_CK_T_B[0]     Bank 504 - PS_DDR_CK1
+#Other net   PACKAGE_PIN V24      - LPDDR4_C0_0_CKE0          Bank 504 - PS_DDR_CKE0
+#Other net   PACKAGE_PIN T27      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_CKE1
+#Other net   PACKAGE_PIN V17      - LPDDR4_C0_0_CK_C_A[0]     Bank 504 - PS_DDR_CK_N0
+#Other net   PACKAGE_PIN U17      - LPDDR4_C0_0_CK_C_B[0]     Bank 504 - PS_DDR_CK_N1
+#Other net   PACKAGE_PIN T25      - LPDDR4_C0_0_CS0           Bank 504 - PS_DDR_CS_N0
+#Other net   PACKAGE_PIN V25      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_CS_N1
+#Other net   PACKAGE_PIN P7       - LPDDR4_C0_0_DMI_A[0]      Bank 504 - PS_DDR_DM0
+#Other net   PACKAGE_PIN R14      - LPDDR4_C0_0_DMI_A[1]      Bank 504 - PS_DDR_DM1
+#Other net   PACKAGE_PIN N15      - LPDDR4_C0_0_DMI_B[0]      Bank 504 - PS_DDR_DM2
+#Other net   PACKAGE_PIN P24      - LPDDR4_C0_0_DMI_B[1]      Bank 504 - PS_DDR_DM3
+#Other net   PACKAGE_PIN P31      - LPDDR4_C0_0_DMI_A[8]      Bank 504 - PS_DDR_DM8
+#Other net   PACKAGE_PIN R10      - LPDDR4_C0_0_DQ_A[0]       Bank 504 - PS_DDR_DQ0
+#Other net   PACKAGE_PIN U10      - LPDDR4_C0_0_DQ_A[1]       Bank 504 - PS_DDR_DQ1
+#Other net   PACKAGE_PIN R9       - LPDDR4_C0_0_DQ_A[10]      Bank 504 - PS_DDR_DQ10
+#Other net   PACKAGE_PIN T9       - LPDDR4_C0_0_DQ_A[11]      Bank 504 - PS_DDR_DQ11
+#Other net   PACKAGE_PIN U11      - LPDDR4_C0_0_DQ_A[12]      Bank 504 - PS_DDR_DQ12
+#Other net   PACKAGE_PIN T12      - LPDDR4_C0_0_DQ_A[13]      Bank 504 - PS_DDR_DQ13
+#Other net   PACKAGE_PIN V13      - LPDDR4_C0_0_DQ_A[14]      Bank 504 - PS_DDR_DQ14
+#Other net   PACKAGE_PIN P12      - LPDDR4_C0_0_DQ_A[15]      Bank 504 - PS_DDR_DQ15
+#Other net   PACKAGE_PIN R16      - LPDDR4_C0_0_DQ_B[0]       Bank 504 - PS_DDR_DQ16
+#Other net   PACKAGE_PIN P20      - LPDDR4_C0_0_DQ_B[1]       Bank 504 - PS_DDR_DQ17
+#Other net   PACKAGE_PIN R15      - LPDDR4_C0_0_DQ_B[2]       Bank 504 - PS_DDR_DQ18
+#Other net   PACKAGE_PIN P16      - LPDDR4_C0_0_DQ_B[3]       Bank 504 - PS_DDR_DQ19
+#Other net   PACKAGE_PIN T10      - LPDDR4_C0_0_DQ_A[2]       Bank 504 - PS_DDR_DQ2
+#Other net   PACKAGE_PIN P18      - LPDDR4_C0_0_DQ_B[4]       Bank 504 - PS_DDR_DQ20
+#Other net   PACKAGE_PIN M16      - LPDDR4_C0_0_DQ_B[5]       Bank 504 - PS_DDR_DQ21
+#Other net   PACKAGE_PIN M15      - LPDDR4_C0_0_DQ_B[6]       Bank 504 - PS_DDR_DQ22
+#Other net   PACKAGE_PIN P15      - LPDDR4_C0_0_DQ_B[7]       Bank 504 - PS_DDR_DQ23
+#Other net   PACKAGE_PIN N21      - LPDDR4_C0_0_DQ_B[8]       Bank 504 - PS_DDR_DQ24
+#Other net   PACKAGE_PIN P22      - LPDDR4_C0_0_DQ_B[9]       Bank 504 - PS_DDR_DQ25
+#Other net   PACKAGE_PIN M20      - LPDDR4_C0_0_DQ_B[10]      Bank 504 - PS_DDR_DQ26
+#Other net   PACKAGE_PIN M21      - LPDDR4_C0_0_DQ_B[11]      Bank 504 - PS_DDR_DQ27
+#Other net   PACKAGE_PIN M24      - LPDDR4_C0_0_DQ_B[12]      Bank 504 - PS_DDR_DQ28
+#Other net   PACKAGE_PIN N24      - LPDDR4_C0_0_DQ_B[13]      Bank 504 - PS_DDR_DQ29
+#Other net   PACKAGE_PIN V10      - LPDDR4_C0_0_DQ_A[3]       Bank 504 - PS_DDR_DQ3
+#Other net   PACKAGE_PIN P25      - LPDDR4_C0_0_DQ_B[14]      Bank 504 - PS_DDR_DQ30
+#Other net   PACKAGE_PIN P23      - LPDDR4_C0_0_DQ_B[15]      Bank 504 - PS_DDR_DQ31
+#Other net   PACKAGE_PIN V9       - LPDDR4_C0_0_DQ_A[4]       Bank 504 - PS_DDR_DQ4
+#Other net   PACKAGE_PIN V7       - LPDDR4_C0_0_DQ_A[5]       Bank 504 - PS_DDR_DQ5
+#Other net   PACKAGE_PIN U7       - LPDDR4_C0_0_DQ_A[6]       Bank 504 - PS_DDR_DQ6
+#Other net   PACKAGE_PIN R27      - LPDDR4_C0_0_DQ_A[64]      Bank 504 - PS_DDR_DQ64
+#Other net   PACKAGE_PIN T28      - LPDDR4_C0_0_DQ_A[65]      Bank 504 - PS_DDR_DQ65
+#Other net   PACKAGE_PIN R28      - LPDDR4_C0_0_DQ_A[66]      Bank 504 - PS_DDR_DQ66
+#Other net   PACKAGE_PIN V28      - LPDDR4_C0_0_DQ_A[67]      Bank 504 - PS_DDR_DQ67
+#Other net   PACKAGE_PIN U28      - LPDDR4_C0_0_DQ_A[68]      Bank 504 - PS_DDR_DQ68
+#Other net   PACKAGE_PIN T31      - LPDDR4_C0_0_DQ_A[69]      Bank 504 - PS_DDR_DQ69
+#Other net   PACKAGE_PIN T7       - LPDDR4_C0_0_DQ_A[7]       Bank 504 - PS_DDR_DQ7
+#Other net   PACKAGE_PIN T30      - LPDDR4_C0_0_DQ_A[70]      Bank 504 - PS_DDR_DQ70
+#Other net   PACKAGE_PIN R30      - LPDDR4_C0_0_DQ_A[71]      Bank 504 - PS_DDR_DQ71
+#Other net   PACKAGE_PIN P9       - LPDDR4_C0_0_DQ_A[8]       Bank 504 - PS_DDR_DQ8
+#Other net   PACKAGE_PIN P10      - LPDDR4_C0_0_DQ_A[9]       Bank 504 - PS_DDR_DQ9
+#Other net   PACKAGE_PIN V8       - LPDDR4_C0_0_DQS_C_A[0]    Bank 504 - PS_DDR_DQS_N0
+#Other net   PACKAGE_PIN V12      - LPDDR4_C0_0_DQS_C_A[1]    Bank 504 - PS_DDR_DQS_N1
+#Other net   PACKAGE_PIN M19      - LPDDR4_C0_0_DQS_C_B[0]    Bank 504 - PS_DDR_DQS_N2
+#Other net   PACKAGE_PIN M23      - LPDDR4_C0_0_DQS_C_B[1]    Bank 504 - PS_DDR_DQS_N3
+#Other net   PACKAGE_PIN V29      - LPDDR4_C0_0_DQS_C_A[8]    Bank 504 - PS_DDR_DQS_N8
+#Other net   PACKAGE_PIN U8       - LPDDR4_C0_0_DQS_T_A[0]    Bank 504 - PS_DDR_DQS_P0
+#Other net   PACKAGE_PIN V11      - LPDDR4_C0_0_DQS_T_A[1]    Bank 504 - PS_DDR_DQS_P1
+#Other net   PACKAGE_PIN M18      - LPDDR4_C0_0_DQS_T_B[0]    Bank 504 - PS_DDR_DQS_P2
+#Other net   PACKAGE_PIN M22      - LPDDR4_C0_0_DQS_T_B[1]    Bank 504 - PS_DDR_DQS_P3
+#Other net   PACKAGE_PIN U29      - LPDDR4_C0_0_DQS_T_A[8]    Bank 504 - PS_DDR_DQS_P8
+#Other net   PACKAGE_PIN U23      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_ODT0
+#Other net   PACKAGE_PIN U26      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_ODT1
+#Other net   PACKAGE_PIN U25      - CDSDefaultIO_2p5v         Bank 504 - PS_DDR_PARITY
+#Other net   PACKAGE_PIN V26      - LPDDR4_C0_0_RESET_N[0]    Bank 504 - PS_DDR_RAM_RST_N
+#Other net   PACKAGE_PIN V27      - BANK504_LPDDR4_ZQ         Bank 504 - PS_DDR_ZQ
+#Other net   PACKAGE_PIN K31      - GTR_DP0_C2M_N             Bank 505 - PS_MGTRRXN0_505
+#Other net   PACKAGE_PIN H31      - GTR_DP1_C2M_N             Bank 505 - PS_MGTRRXN1_505
+#Other net   PACKAGE_PIN F31      - GTR_DP2_C2M_N             Bank 505 - PS_MGTRRXN2_505
+#Other net   PACKAGE_PIN D31      - GTR_DP3_C2M_N             Bank 505 - PS_MGTRRXN3_505
+#Other net   PACKAGE_PIN K30      - GTR_DP0_C2M_P             Bank 505 - PS_MGTRRXP0_505
+#Other net   PACKAGE_PIN H30      - GTR_DP1_C2M_P             Bank 505 - PS_MGTRRXP1_505
+#Other net   PACKAGE_PIN F30      - GTR_DP2_C2M_P             Bank 505 - PS_MGTRRXP2_505
+#Other net   PACKAGE_PIN D30      - GTR_DP3_C2M_P             Bank 505 - PS_MGTRRXP3_505
+#Other net   PACKAGE_PIN G28      - GTR_DP0_M2C_N             Bank 505 - PS_MGTRTXN0_505
+#Other net   PACKAGE_PIN E28      - GTR_DP1_M2C_N             Bank 505 - PS_MGTRTXN1_505
+#Other net   PACKAGE_PIN C28      - GTR_DP2_M2C_N             Bank 505 - PS_MGTRTXN2_505
+#Other net   PACKAGE_PIN A28      - GTR_DP3_M2C_N             Bank 505 - PS_MGTRTXN3_505
+#Other net   PACKAGE_PIN G27      - GTR_DP0_M2C_P             Bank 505 - PS_MGTRTXP0_505
+#Other net   PACKAGE_PIN E27      - GTR_DP1_M2C_P             Bank 505 - PS_MGTRTXP1_505
+#Other net   PACKAGE_PIN C27      - GTR_DP2_M2C_P             Bank 505 - PS_MGTRTXP2_505
+#Other net   PACKAGE_PIN A27      - GTR_DP3_M2C_P             Bank 505 - PS_MGTRTXP3_505
+#Other net   PACKAGE_PIN N28      - FPGA_GTR_REFCLK0_N        Bank 505 - PS_MGTREFCLK0N_505
+#Other net   PACKAGE_PIN N27      - FPGA_GTR_REFCLK0_P        Bank 505 - PS_MGTREFCLK0P_505
+#Other net   PACKAGE_PIN M31      - FPGA_GTR_REFCLK1_N        Bank 505 - PS_MGTREFCLK1N_505
+#Other net   PACKAGE_PIN M30      - FPGA_GTR_REFCLK1_P        Bank 505 - PS_MGTREFCLK1P_505
+#Other net   PACKAGE_PIN L28      - FPGA_GTR_REFCLK2_N        Bank 505 - PS_MGTREFCLK2N_505
+#Other net   PACKAGE_PIN L27      - FPGA_GTR_REFCLK2_P        Bank 505 - PS_MGTREFCLK2P_505
+#Other net   PACKAGE_PIN J28      - FPGA_GTR_REFCLK3_N        Bank 505 - PS_MGTREFCLK3N_505
+#Other net   PACKAGE_PIN J27      - FPGA_GTR_REFCLK3_P        Bank 505 - PS_MGTREFCLK3P_505
+#Other net   PACKAGE_PIN B29      - PS_GTRREF_505             Bank 505 - PS_MGTRREF_505
+#Other net   PACKAGE_PIN F19      - VCC_PS_1V80               Bank 500 - VCCO_PSIO0_500
+#Other net   PACKAGE_PIN F21      - VCC_PS_1V80               Bank 500 - VCCO_PSIO0_500
+#Other net   PACKAGE_PIN D19      - VCC_PS_1V80               Bank 501 - VCCO_PSIO1_501
+#Other net   PACKAGE_PIN D21      - VCC_PS_1V80               Bank 501 - VCCO_PSIO1_501
+#Other net   PACKAGE_PIN D23      - VCC_PS_1V80               Bank 502 - VCCO_PSIO2_502
+#Other net   PACKAGE_PIN D25      - VCC_PS_1V80               Bank 502 - VCCO_PSIO2_502
+#Other net   PACKAGE_PIN E25      - VCC_PS_1V80               Bank 503 - VCCO_PSIO3_503
+#Other net   PACKAGE_PIN F25      - VCC_PS_1V80               Bank 503 - VCCO_PSIO3_503
+#Other net   PACKAGE_PIN P19      - VCC_PS_1V10               Bank 504 - VCCO_PSDDR_504
+#Other net   PACKAGE_PIN P21      - VCC_PS_1V10               Bank 504 - VCCO_PSDDR_504
+#Other net   PACKAGE_PIN P30      - VCC_PS_1V10               Bank 504 - VCCO_PSDDR_504
+#Other net   PACKAGE_PIN R26      - VCC_PS_1V10               Bank 504 - VCCO_PSDDR_504
+#Other net   PACKAGE_PIN T19      - VCC_PS_1V10               Bank 504 - VCCO_PSDDR_504
+#Other net   PACKAGE_PIN T23      - VCC_PS_1V10               Bank 504 - VCCO_PSDDR_504
+#Other net   PACKAGE_PIN C14      - VCCO_HDA                  Bank  26 - VCCO_26
+#Other net   PACKAGE_PIN G14      - VCCO_HDA                  Bank  26 - VCCO_26
+#Other net   PACKAGE_PIN M5       - VCCO_HPA                  Bank  65 - VCCO_65
+#Other net   PACKAGE_PIN G5       - VCCO_HPA                  Bank  65 - VCCO_65
+#Other net   PACKAGE_PIN H5       - VCCO_HPA                  Bank  65 - VCCO_65
+#Other net   PACKAGE_PIN A1       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN A2       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN A26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN A29      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN A30      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN A31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B1       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B3       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B5       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B8       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B11      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B14      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B17      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B21      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B24      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B27      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B28      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B30      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN B31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN C2       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN C8       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN C12      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN C26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN C30      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN C31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN D11      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN D17      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN D20      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN D22      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN D24      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN D26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN D28      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN E5       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN E8       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN E14      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN E19      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN E21      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN E23      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN E26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN E31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN F2       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN F5       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN F11      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN F14      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN F26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN F28      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN G8       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN G17      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN G19      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN G22      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN G26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN G31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN H6       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN H11      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN H24      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN H26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN H28      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN J2       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN J5       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN J8       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN J14      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN J26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN J31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN K17      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN K19      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN K22      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN K26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN K27      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN K28      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN L5       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN L8       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN L11      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN L14      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN L24      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN L26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN L30      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN L31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN M2       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN M26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN M27      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN M28      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN N5       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN N8       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN N11      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN N17      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN N19      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN N22      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN N26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN N30      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN N31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN P14      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN P26      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN P27      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN P28      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R2       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R5       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R8       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R11      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R17      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R19      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R21      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R23      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R25      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN R31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U1       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U3       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U6       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U9       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U12      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U15      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U18      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U21      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U24      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U27      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U30      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN U31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN V1       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN V2       - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN V30      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN V31      - GND                       Bank 999 - GND
+#Other net   PACKAGE_PIN G24      - PSADC_AGND                Bank 999 - GND_PSADC
+#Other net   PACKAGE_PIN D27      - MGTRAVCC_0V85             Bank 999 - PS_MGTRAVCC
+#Other net   PACKAGE_PIN H27      - MGTRAVCC_0V85             Bank 999 - PS_MGTRAVCC
+#Other net   PACKAGE_PIN F27      - MGTRAVCC_0V85             Bank 999 - PS_MGTRAVCC
+#Other net   PACKAGE_PIN E30      - MGTRAVTT_1V8              Bank 999 - PS_MGTRAVTT
+#Other net   PACKAGE_PIN J30      - MGTRAVTT_1V8              Bank 999 - PS_MGTRAVTT
+#Other net   PACKAGE_PIN G30      - MGTRAVTT_1V8              Bank 999 - PS_MGTRAVTT
+#Other net   PACKAGE_PIN N23      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN J19      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN J22      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN J24      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN J25      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN K18      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN L22      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN L25      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN N18      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN N20      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP
+#Other net   PACKAGE_PIN C9       - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN E11      - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN E17      - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN K11      - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN K16      - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN M8       - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN P11      - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN P17      - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN R4       - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN T8       - VCC_PL_1V80               Bank 999 - VCCAUX
+#Other net   PACKAGE_PIN R18      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP_DDR
+#Other net   PACKAGE_PIN R22      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP_DDR
+#Other net   PACKAGE_PIN M25      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP_DDR
+#Other net   PACKAGE_PIN N25      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP_DDR
+#Other net   PACKAGE_PIN R24      - VCC_PS_0V85               Bank 999 - VCC_PSINTFP_DDR
+#Other net   PACKAGE_PIN H4       - VCC_PL_1V80               Bank 999 - VCCAUX_IO
+#Other net   PACKAGE_PIN T5       - VCC_PL_1V80               Bank 999 - VCCAUX_IO
+#Other net   PACKAGE_PIN G4       - VCC_PL_1V80               Bank 999 - VCCAUX_IO
+#Other net   PACKAGE_PIN E15      - VCC_PL_1V80               Bank 999 - VCCAUX_IO
+#Other net   PACKAGE_PIN L4       - VCC_PL_1V80               Bank 999 - VCCAUX_IO
+#Other net   PACKAGE_PIN C17      - VCC_PL_0V85               Bank 999 - VCCBRAM
+#Other net   PACKAGE_PIN D12      - VCC_PL_0V85               Bank 999 - VCCBRAM
+#Other net   PACKAGE_PIN E7       - VCC_PL_0V85               Bank 999 - VCCBRAM
+#Other net   PACKAGE_PIN H12      - VCC_PL_0V85               Bank 999 - VCCBRAM
+#Other net   PACKAGE_PIN L7       - VCC_PL_0V85               Bank 999 - VCCBRAM
+#Other net   PACKAGE_PIN L12      - VCC_PL_0V85               Bank 999 - VCCBRAM
+#Other net   PACKAGE_PIN M17      - VCC_PL_0V85               Bank 999 - VCCBRAM
+#Other net   PACKAGE_PIN R7       - VCC_PL_0V85               Bank 999 - VCCBRAM
+#Other net   PACKAGE_PIN R12      - VCC_PL_0V85               Bank 999 - VCCBRAM
+#Other net   PACKAGE_PIN C5       - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN C11      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN D8       - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN D16      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN E13      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN F6       - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN F8       - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN G11      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN G16      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN J13      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN J17      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN K8       - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN L17      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN M6       - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN M11      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN N16      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN P8       - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN P13      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN R6       - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN T11      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN T16      - VCC_PL_0V72               Bank 999 - VCCINT
+#Other net   PACKAGE_PIN D5       - VCC_PL_0V85               Bank 999 - VCCINT_IO
+#Other net   PACKAGE_PIN P5       - VCC_PL_0V85               Bank 999 - VCCINT_IO
+#Other net   PACKAGE_PIN K5       - VCC_PL_0V85               Bank 999 - VCCINT_IO
+#Other net   PACKAGE_PIN H25      - VCC_PSADC                 Bank 999 - VCC_PSADC
+#Other net   PACKAGE_PIN L19      - VCC_PS_1V80               Bank 999 - VCC_PSAUX
+#Other net   PACKAGE_PIN E18      - VCC_PS_1V80               Bank 999 - VCC_PSAUX
+#Other net   PACKAGE_PIN E20      - VCC_PS_1V80               Bank 999 - VCC_PSAUX
+#Other net   PACKAGE_PIN E24      - VCC_PS_1V80               Bank 999 - VCC_PSAUX
+#Other net   PACKAGE_PIN C25      - VCC_PSBATT                Bank 999 - VCC_PSBATT
+#Other net   PACKAGE_PIN R20      - VCC_PSDDR_PLL             Bank 999 - VCC_PSDDR_PLL
+#Other net   PACKAGE_PIN F17      - VCC_PS_0V85               Bank 999 - VCC_PSINTLP
+#Other net   PACKAGE_PIN G25      - VCC_PS_0V85               Bank 999 - VCC_PSINTLP
+#Other net   PACKAGE_PIN F22      - VCC_PS_0V85               Bank 999 - VCC_PSINTLP
+#Other net   PACKAGE_PIN H20      - VCC_PS_0V85               Bank 999 - VCC_PSINTLP
+#Other net   PACKAGE_PIN G21      - VCC_PS_1V20               Bank 999 - VCC_PSPLL
+#Other net   PACKAGE_PIN G20      - VCC_PS_1V20               Bank 999 - VCC_PSPLL

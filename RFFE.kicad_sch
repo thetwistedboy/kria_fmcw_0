@@ -1,0 +1,1695 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "aa5edbb8-6580-48d9-ad85-193fc852d191")
+	(paper "A4")
+	(lib_symbols
+		(symbol "RF:PAT1220-C-6DB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PAT1220-C-6DB"
+				(at 5.08 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 6dB Attenuation, PAT1220"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RF attenuator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RF*Attenuator*Susumu*PAT1220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PAT1220-C-6DB_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.27) (xy -3.937 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 -3.048) (xy 3.937 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 1.27) (xy 3.937 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PAT1220-C-6DB_1_1"
+				(rectangle
+					(start -4.572 -1.778)
+					(end -3.302 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 -3.048) (xy -3.937 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 3.175)
+					(end 1.524 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.302 -1.778)
+					(end 4.572 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 -3.048) (xy 3.937 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 1.524 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "5v0a - 250mA"
+		(exclude_from_sim no)
+		(at 117.348 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "583468bc-c245-4768-a1b7-2f4e19deb0fc")
+	)
+	(text "To Do:\nPLL Loop filter\n\nVs needed:\n\n\n"
+		(exclude_from_sim no)
+		(at 107.696 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "602f761b-e5d8-4960-a8b1-3580390b98a4")
+	)
+	(text "3v3A - 50mA"
+		(exclude_from_sim no)
+		(at 42.926 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd608afb-d132-4ee1-ab08-acf960f8a664")
+	)
+	(text "3v3A - 120mA"
+		(exclude_from_sim no)
+		(at 110.744 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d88a3c3d-d0d2-46e2-bdb0-b951b726a025")
+	)
+	(text "3v3a - 10mA"
+		(exclude_from_sim no)
+		(at 87.122 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f39ae887-a7e4-40ff-b902-7d6cfb6be43f")
+	)
+	(bus
+		(pts
+			(xy 30.48 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ade529-f3ee-4428-9667-a689f7ad1b38")
+	)
+	(wire
+		(pts
+			(xy 139.7 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c8861e-2d79-427f-a5b0-682755dbd70b")
+	)
+	(wire
+		(pts
+			(xy 100.33 114.3) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20383960-a5fb-4285-afd5-2c6044d693c1")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d136506-e5b3-42dd-8743-2a3735b2fbbf")
+	)
+	(wire
+		(pts
+			(xy 167.64 66.04) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bf0aa5-d53d-43fd-8049-3bd18082e054")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405cc649-b46b-4ca3-9bf2-775362fe3b36")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509ce975-b581-4a8d-b13a-b5e96dfd599b")
+	)
+	(wire
+		(pts
+			(xy 139.7 68.58) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c20e57-9803-40b4-9e3f-ceb10f2ad306")
+	)
+	(wire
+		(pts
+			(xy 71.12 114.3) (xy 74.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698ff70b-0592-4f39-8df3-f2685c708f2e")
+	)
+	(wire
+		(pts
+			(xy 63.5 93.98) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7507dd8d-db36-4b09-9b88-d983ff3de3c7")
+	)
+	(wire
+		(pts
+			(xy 63.5 99.06) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0cf35b-4504-40b4-9bcd-7b95e5febebb")
+	)
+	(wire
+		(pts
+			(xy 100.33 119.38) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c91e0e-06e6-4213-b337-7b3f9b302a90")
+	)
+	(wire
+		(pts
+			(xy 31.75 39.37) (xy 45.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acab613b-ed56-413e-a479-84d5398430c8")
+	)
+	(wire
+		(pts
+			(xy 30.48 50.8) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d72c4d-8187-4871-82b1-9225a6978b69")
+	)
+	(wire
+		(pts
+			(xy 109.22 68.58) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be98045d-ddb3-4d9c-bd5e-0aa776b5ab86")
+	)
+	(wire
+		(pts
+			(xy 134.62 119.38) (xy 146.05 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f10acd-6f56-47b6-b7af-407c7b07053d")
+	)
+	(wire
+		(pts
+			(xy 63.5 96.52) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1dfc26-9727-48ab-acd0-284a7f421739")
+	)
+	(wire
+		(pts
+			(xy 78.74 50.8) (xy 78.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce82b5c3-2acd-4e52-ac18-613c960ffc17")
+	)
+	(wire
+		(pts
+			(xy 30.48 114.3) (xy 68.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56e7059-fb6c-4843-be4a-610a538575dc")
+	)
+	(wire
+		(pts
+			(xy 78.74 39.37) (xy 74.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db43199b-9c59-40cb-b0dc-b965c5211703")
+	)
+	(wire
+		(pts
+			(xy 100.33 121.92) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0921ce1-1fd5-4b1c-a753-68680df836cb")
+	)
+	(bus
+		(pts
+			(xy 30.48 119.38) (xy 74.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2eb8fba-9989-41de-97a4-765e50822640")
+	)
+	(wire
+		(pts
+			(xy 71.12 99.06) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e340428e-bcf4-41c1-813f-b30c272c70d0")
+	)
+	(wire
+		(pts
+			(xy 68.58 93.98) (xy 68.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94f3e57-91ae-493a-8b39-a5aac6537ecc")
+	)
+	(wire
+		(pts
+			(xy 166.37 119.38) (xy 172.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf9d18e-53ca-406c-9bd6-d6a0654cf742")
+	)
+	(wire
+		(pts
+			(xy 31.75 35.56) (xy 45.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f442b376-2715-48a8-85c7-765a6640ab45")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a5990c-2e62-46f0-9e8d-3a840e4147af")
+	)
+	(wire
+		(pts
+			(xy 109.22 66.04) (xy 147.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5fb250-a8e1-405e-a0a7-7634be62c35d")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 31.75 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f8ca066-d856-4687-8940-a58871d30ef9")
+	)
+	(hierarchical_label "rffe_ps_en"
+		(shape input)
+		(at 31.75 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2539031f-9fd8-49b5-9706-02db69f3c37a")
+	)
+	(hierarchical_label "rf_ps_pg"
+		(shape output)
+		(at 30.48 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33ac3cde-7feb-46e7-8cbd-6ee5aa335c37")
+	)
+	(hierarchical_label "{RFFE_ADC}"
+		(shape bidirectional)
+		(at 30.48 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "539806e6-3bf3-495e-abc9-67f9cd04b8d0")
+	)
+	(hierarchical_label "sample_clk"
+		(shape output)
+		(at 30.48 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4e497c1-5aea-4df8-a5a5-84fd09516365")
+	)
+	(hierarchical_label "{SRC_CTRL}"
+		(shape bidirectional)
+		(at 30.48 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aaa53864-a6b0-4671-b4ff-ce3a449e9917")
+	)
+	(hierarchical_label "RF_out"
+		(shape output)
+		(at 173.99 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b92ec968-9ad2-4556-a10c-f4844fed97c2")
+	)
+	(hierarchical_label "sample_clk_out"
+		(shape output)
+		(at 172.72 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8ff5bcd-3207-4a86-ab74-5445f80ff55b")
+	)
+	(hierarchical_label "RF_in"
+		(shape input)
+		(at 172.72 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7bc9f67-33dc-4f16-9846-8c29c49a8760")
+	)
+	(symbol
+		(lib_id "RF:PAT1220-C-6DB")
+		(at 156.21 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f54df29-5b2b-476c-b48b-e3500a97585c")
+		(property "Reference" "U1"
+			(at 156.21 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PAT1220-C-6DB"
+			(at 156.21 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+			(at 156.21 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf"
+			(at 149.86 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 6dB Attenuation, PAT1220"
+			(at 156.21 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95cec9c8-d988-45f2-9c84-ca605d381ca8")
+		)
+		(pin "2"
+			(uuid "08e279ae-e62f-4b6e-beaf-d6ce8d114d60")
+		)
+		(pin "3"
+			(uuid "7e76cd61-d866-4c6c-883c-5da11981f99d")
+		)
+		(instances
+			(project "Network_Analyzer_1"
+				(path "/3656fb49-f099-449c-92b5-88ebaae2340d/9f7bdf0b-6474-4ddf-85c1-405ae64f5fe2"
+					(reference "U25")
+					(unit 1)
+				)
+			)
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6270042e-e7b4-43eb-a7ec-d6e59aed5e22")
+		(property "Reference" "#PWR01"
+			(at 156.21 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c45a80f0-e2a3-4cbf-89a6-6be554c8425c")
+		)
+		(instances
+			(project "Network_Analyzer_1"
+				(path "/3656fb49-f099-449c-92b5-88ebaae2340d/9f7bdf0b-6474-4ddf-85c1-405ae64f5fe2"
+					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3991a44-b9c9-4db5-926d-919792118a45")
+		(property "Reference" "#PWR02"
+			(at 157.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a44062c-95b7-4690-b220-bb07f7f0b680")
+		)
+		(instances
+			(project "Network_Analyzer_1"
+				(path "/3656fb49-f099-449c-92b5-88ebaae2340d/9f7bdf0b-6474-4ddf-85c1-405ae64f5fe2"
+					(reference "#PWR0267")
+					(unit 1)
+				)
+			)
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF:PAT1220-C-6DB")
+		(at 157.48 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e20da8-2d30-4039-a7f3-95ec1216260c")
+		(property "Reference" "U2"
+			(at 157.48 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PAT1220-C-6DB"
+			(at 157.48 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+			(at 157.48 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 6dB Attenuation, PAT1220"
+			(at 157.48 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61604a67-8b6d-4586-97b8-944c6f0aee9b")
+		)
+		(pin "2"
+			(uuid "0a1ee551-048b-4174-a8f0-558526c8192a")
+		)
+		(pin "3"
+			(uuid "6dba9d69-44e1-44be-9fa2-1ed8b4b4c8ef")
+		)
+		(instances
+			(project "Network_Analyzer_1"
+				(path "/3656fb49-f099-449c-92b5-88ebaae2340d/9f7bdf0b-6474-4ddf-85c1-405ae64f5fe2"
+					(reference "U24")
+					(unit 1)
+				)
+			)
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 88.9)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "22e9be2c-ea13-46c2-a029-bfa494cb0e7b")
+		(property "Sheetname" "sample_clock"
+			(at 36.83 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sample_clock.kicad_sch"
+			(at 36.83 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "clk0" output
+			(at 63.5 91.44 0)
+			(uuid "61ef5f47-49f1-4965-bab2-3debaf38f19b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "clk1" output
+			(at 63.5 93.98 0)
+			(uuid "8c0b0556-c5cd-4ebd-821e-817826e8f4db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "clk2" output
+			(at 63.5 96.52 0)
+			(uuid "2de015d8-e541-4cf0-99ce-27a04a0acc6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "clk3" output
+			(at 63.5 99.06 0)
+			(uuid "1b9e8fb2-9766-4e67-974e-95ec6c17c544")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Network_Analyzer_1"
+				(path "/3656fb49-f099-449c-92b5-88ebaae2340d/9f7bdf0b-6474-4ddf-85c1-405ae64f5fe2"
+					(page "23")
+				)
+			)
+			(project ""
+				(path "/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "#")
+				)
+			)
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 59.69)
+		(size 27.94 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "43c55960-e06c-4796-99f6-b202b8478744")
+		(property "Sheetname" "signal_generator"
+			(at 81.28 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "signal_generator.kicad_sch"
+			(at 81.28 76.1496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "f_out1" output
+			(at 109.22 66.04 0)
+			(uuid "2c7ce2a1-5b27-4706-9286-17a6a75a3533")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "f_out2" output
+			(at 109.22 68.58 0)
+			(uuid "d6bfefbe-ceb8-4ed5-95cb-d55be830a403")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ref_in" input
+			(at 81.28 68.58 180)
+			(uuid "d755382f-a903-4f24-8a19-cd6331d4f333")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SRC_CTRL}" bidirectional
+			(at 81.28 66.04 180)
+			(uuid "a8bebcc6-3229-4d42-8fc1-662e1d861758")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Network_Analyzer_1"
+				(path "/3656fb49-f099-449c-92b5-88ebaae2340d/9f7bdf0b-6474-4ddf-85c1-405ae64f5fe2"
+					(page "25")
+				)
+			)
+			(project ""
+				(path "/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "#")
+				)
+			)
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 30.48)
+		(size 29.21 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "72d84a75-eebd-434e-80b9-438ec7053fd5")
+		(property "Sheetname" "rffe_ps"
+			(at 45.72 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rffe_ps.kicad_sch"
+			(at 45.72 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "rffe_ps_en" input
+			(at 45.72 39.37 180)
+			(uuid "878ab337-5b88-41eb-806a-4442b503a8f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 45.72 35.56 180)
+			(uuid "64fecf2d-b155-4a1c-b094-9bbc55a2832d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "rf_ps_pg" output
+			(at 74.93 39.37 0)
+			(uuid "7d2ca7ef-28da-468e-84c1-ca9a006ee7a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Network_Analyzer_1"
+				(path "/3656fb49-f099-449c-92b5-88ebaae2340d/9f7bdf0b-6474-4ddf-85c1-405ae64f5fe2"
+					(page "18")
+				)
+			)
+			(project ""
+				(path "/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "#")
+				)
+			)
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 109.855)
+		(size 21.59 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e9ed8583-001b-4544-a702-c532eb35e16c")
+		(property "Sheetname" "demodulator"
+			(at 113.03 109.1434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "demodulator.kicad_sch"
+			(at 113.03 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADCI_N" output
+			(at 113.03 114.3 180)
+			(uuid "fb9488fc-2f45-4f8f-b017-a9743947db1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADCI_P" output
+			(at 113.03 111.76 180)
+			(uuid "dea950dc-9a1d-462a-af58-5812639506e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADCQ_N" output
+			(at 113.03 121.92 180)
+			(uuid "ed01765f-038f-466c-babf-b2633e44b20b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADCQ_P" output
+			(at 113.03 119.38 180)
+			(uuid "6655eb91-11a8-4be2-aa02-255bc7ee012f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_in" input
+			(at 134.62 119.38 0)
+			(uuid "94bb24cd-1bb2-4f81-b727-d746fd2ced22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LO" input
+			(at 134.62 111.76 0)
+			(uuid "cb8becd4-c8a4-4171-8b82-682a5cc860cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Network_Analyzer_1"
+				(path "/3656fb49-f099-449c-92b5-88ebaae2340d/9f7bdf0b-6474-4ddf-85c1-405ae64f5fe2"
+					(page "24")
+				)
+			)
+			(project ""
+				(path "/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "#")
+				)
+			)
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 109.855)
+		(size 25.4 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fd0e4105-809a-47c6-8d9f-445ec140ff3d")
+		(property "Sheetname" "ADC"
+			(at 74.93 109.1434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 74.93 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADCI_N" input
+			(at 100.33 114.3 0)
+			(uuid "38223efa-833f-4a48-a3e0-8ff796e4cbe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADCI_P" input
+			(at 100.33 111.76 0)
+			(uuid "23fa6179-8446-4ebc-898c-f1d69bfa9e18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADCQ_N" input
+			(at 100.33 121.92 0)
+			(uuid "4b60eb5f-bd74-4131-9e73-515a3202f504")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADCQ_P" input
+			(at 100.33 119.38 0)
+			(uuid "3fb38b2f-7808-47ca-8570-39277c0d0677")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sample_clk" input
+			(at 74.93 114.3 180)
+			(uuid "bba57b7b-7730-444b-bbf0-4d6527489a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{RFFE_ADC}" bidirectional
+			(at 74.93 119.38 180)
+			(uuid "72cdd40b-e612-4e89-b492-53bd183a7088")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Network_Analyzer_1"
+				(path "/3656fb49-f099-449c-92b5-88ebaae2340d/9f7bdf0b-6474-4ddf-85c1-405ae64f5fe2"
+					(page "11")
+				)
+			)
+			(project ""
+				(path "/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "#")
+				)
+			)
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/c13198ac-bf6b-455b-a223-5846b0b3a05d"
+					(page "5")
+				)
+			)
+		)
+	)
+)
