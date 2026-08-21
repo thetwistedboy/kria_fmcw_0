@@ -672,12 +672,6 @@
 		(uuid "1b286aac-4634-4042-919f-9fbacc5001f6")
 	)
 	(junction
-		(at 254 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "319b9831-7ca6-41a0-9cbd-a1c265b6ba57")
-	)
-	(junction
 		(at 168.91 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -696,16 +690,28 @@
 		(uuid "5318e62e-c00b-484c-926f-c5d3135f3078")
 	)
 	(junction
-		(at 254 71.12)
+		(at 251.46 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6256871d-3e5e-48aa-bbad-eb8623a461f8")
+	)
+	(junction
+		(at 251.46 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dfbfb54-188d-43aa-8b3c-7f0f0d136e45")
 	)
 	(junction
-		(at 254 66.04)
+		(at 251.46 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "913f7b9e-4542-4b32-9ca0-065df9fe266b")
+	)
+	(junction
+		(at 251.46 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce49f9e-d2b2-45b1-b296-7dde9cad3fac")
 	)
 	(junction
 		(at 241.3 100.33)
@@ -713,9 +719,15 @@
 		(color 0 0 0 0)
 		(uuid "db4c9237-b238-4fa9-87f1-5d89c3ef3847")
 	)
+	(junction
+		(at 251.46 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edf7652e-586f-4d6f-b50a-5c65bff66984")
+	)
 	(wire
 		(pts
-			(xy 254 60.96) (xy 254 66.04)
+			(xy 251.46 30.48) (xy 251.46 35.56)
 		)
 		(stroke
 			(width 0)
@@ -795,7 +807,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 71.12) (xy 254 76.2)
+			(xy 251.46 40.64) (xy 251.46 45.72)
 		)
 		(stroke
 			(width 0)
@@ -905,6 +917,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 53.34) (xy 251.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864ba6ac-d4dc-4b06-bfe9-ef6a1e094893")
+	)
+	(wire
+		(pts
 			(xy 121.92 62.23) (xy 115.57 62.23)
 		)
 		(stroke
@@ -945,7 +967,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 76.2) (xy 254 78.74)
+			(xy 251.46 45.72) (xy 251.46 53.34)
 		)
 		(stroke
 			(width 0)
@@ -972,6 +994,16 @@
 			(type default)
 		)
 		(uuid "9fb762e5-0285-451d-9a77-04742be1ef61")
+	)
+	(wire
+		(pts
+			(xy 251.46 58.42) (xy 251.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17746b3-7dac-4669-97dc-00c7e19cf1ff")
 	)
 	(wire
 		(pts
@@ -1085,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 66.04) (xy 254 71.12)
+			(xy 251.46 35.56) (xy 251.46 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1215,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 251.46 60.96 90)
+		(at 248.92 30.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1193,7 +1225,7 @@
 		(dnp no)
 		(uuid "0fdf9257-c17c-4893-bf28-3fd02dda2f4f")
 		(property "Reference" "H1"
-			(at 246.126 60.96 90)
+			(at 243.586 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1203,7 +1235,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 250.19 57.15 90)
+			(at 247.65 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1214,7 +1246,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 251.46 60.96 0)
+			(at 248.92 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1225,7 +1257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 60.96 0)
+			(at 248.92 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1236,7 +1268,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 251.46 60.96 0)
+			(at 248.92 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1253,6 +1285,83 @@
 			(project "FMCW_0"
 				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 248.92 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "141ffa50-89e0-48cc-9ede-f0e1b81f6c7e")
+		(property "Reference" "H6"
+			(at 243.586 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 247.65 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 248.92 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 248.92 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c81b008f-1f09-4f6c-bef4-5451c3ab7132")
+		)
+		(instances
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -1339,7 +1448,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 78.74 0)
+		(at 251.46 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1350,7 +1459,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ac6b8cc-10db-48ef-b9c5-15102c992aba")
 		(property "Reference" "#PWR0218"
-			(at 254 85.09 0)
+			(at 251.46 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1361,7 +1470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 83.82 0)
+			(at 251.46 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1371,7 +1480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 78.74 0)
+			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1382,7 +1491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 78.74 0)
+			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1393,7 +1502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 78.74 0)
+			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1658,7 +1767,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 251.46 71.12 90)
+		(at 248.92 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1668,7 +1777,7 @@
 		(dnp no)
 		(uuid "ada3b59f-f173-4290-a6c4-9c90b41bc801")
 		(property "Reference" "H3"
-			(at 246.126 71.12 90)
+			(at 243.586 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1678,7 +1787,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 250.19 67.31 90)
+			(at 247.65 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1689,7 +1798,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 251.46 71.12 0)
+			(at 248.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,7 +1809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 71.12 0)
+			(at 248.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1711,7 +1820,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 251.46 71.12 0)
+			(at 248.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1735,7 +1844,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 251.46 66.04 90)
+		(at 248.92 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1745,7 +1854,7 @@
 		(dnp no)
 		(uuid "b2085325-aa4a-43d5-b9b8-031c71f983ee")
 		(property "Reference" "H2"
-			(at 246.126 66.04 90)
+			(at 243.586 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1755,7 +1864,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 250.19 62.23 90)
+			(at 247.65 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1766,7 +1875,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 251.46 66.04 0)
+			(at 248.92 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1777,7 +1886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 66.04 0)
+			(at 248.92 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,7 +1897,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 251.46 66.04 0)
+			(at 248.92 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +1999,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 251.46 76.2 90)
+		(at 248.92 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1900,7 +2009,7 @@
 		(dnp no)
 		(uuid "c914767c-ca9f-40bb-9a10-afb16a143393")
 		(property "Reference" "H4"
-			(at 246.126 76.2 90)
+			(at 243.586 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1910,7 +2019,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 250.19 72.39 90)
+			(at 247.65 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1921,7 +2030,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 251.46 76.2 0)
+			(at 248.92 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,7 +2041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 76.2 0)
+			(at 248.92 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +2052,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 251.46 76.2 0)
+			(at 248.92 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1960,6 +2069,83 @@
 			(project "FMCW_0"
 				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 248.92 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9d3e71d-593c-4bc5-a3ec-50a3f8381050")
+		(property "Reference" "H5"
+			(at 243.586 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 247.65 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 248.92 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 248.92 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ccb5f22-e4c5-49f1-9fc4-a41f77ccc21d")
+		)
+		(instances
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40"
+					(reference "H5")
 					(unit 1)
 				)
 			)
