@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1524,
+        "min_clearance": 0.1016,
         "min_connection": 0.1524,
         "min_copper_edge_clearance": 0.254,
         "min_groove_width": 0.0,
@@ -523,7 +523,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1524,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -541,7 +541,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1524,
+        "clearance": 0.1016,
         "name": "ETH_RGMII",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -552,7 +552,7 @@
         "via_drill": 0.3048
       },
       {
-        "clearance": 0.1524,
+        "clearance": 0.1016,
         "name": "ULPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -1028,7 +1028,7 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 5584248,
+            "delay": 5584201,
             "diff_pair_gap": 0,
             "signal_layer": "B.Cu",
             "top_reference_layer": "In4.Cu",
