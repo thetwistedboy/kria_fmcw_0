@@ -905,6 +905,12 @@
 		(uuid "3903de1d-ee83-4083-91ed-cddc01298333")
 	)
 	(junction
+		(at 88.9 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9524faa2-fad4-4c64-82ab-e2295c14a7b9")
+	)
+	(junction
 		(at 77.47 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1032,6 +1038,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 83.82) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a06d65-ae98-4eaa-9bc8-8453238b0172")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 88.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45843ad4-9b52-4e2f-8dc8-2683a772f14f")
+	)
+	(wire
+		(pts
 			(xy 133.35 93.98) (xy 133.35 96.52)
 		)
 		(stroke
@@ -1132,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 83.82) (xy 109.22 83.82)
+			(xy 77.47 83.82) (xy 88.9 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1491,6 +1517,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38467e3e-5b5f-4b87-a49c-d373bbcd498c")
+		(property "Reference" "R78"
+			(at 91.44 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 91.44 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 88.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "RMCF0402FT10K0CT-ND"
+			(at 88.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e318daac-070f-4225-933c-01e585e455b8")
+		)
+		(pin "2"
+			(uuid "321b734d-f575-42af-87c9-b84b728bc7e2")
+		)
+		(instances
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/163ed995-0347-441f-87b9-46e27db1e708"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 161.29 99.06 0)
 		(unit 1)
@@ -1683,6 +1802,84 @@
 			(project "FMCW_0"
 				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/163ed995-0347-441f-87b9-46e27db1e708"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ab8c761-482e-42c0-8d6d-59d8ca984aa0")
+		(property "Reference" "#PWR0171"
+			(at 88.9 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c69adc3-ed17-481a-bc1d-5e76d08aa142")
+		)
+		(instances
+			(project "FMCW_0"
+				(path "/53b43a51-f58c-43fe-a3da-260b9c1efe40/163ed995-0347-441f-87b9-46e27db1e708"
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
