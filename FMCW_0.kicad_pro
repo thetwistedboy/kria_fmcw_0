@@ -952,7 +952,7 @@
         "uuid": "53b43a51-f58c-43fe-a3da-260b9c1efe40"
       }
     ],
-    "used_designators": "LCD1,R1-102,SW1-4,RN1-14,U1-31,D1-4,C1-133,H1-6,BT1,J1-9,Y1-3,#PWR1-223,#PWR269,L1-13,P1,FB1-4",
+    "used_designators": "LCD1,R1-103,SW1-4,RN1-14,U1-31,D1-4,C1-133,H1-6,BT1,J1-9,Y1-3,#PWR1-223,#PWR269,L1-13,P1,FB1-4",
     "variants": []
   },
   "sheets": [
