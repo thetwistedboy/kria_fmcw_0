@@ -807,6 +807,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 57.15) (xy 97.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dde33b1-ef41-4ded-9992-da5f190e8664")
+	)
+	(wire
+		(pts
 			(xy 251.46 40.64) (xy 251.46 45.72)
 		)
 		(stroke
@@ -917,6 +927,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ee665c-5837-414b-8540-d7a2bd9b1de7")
+	)
+	(wire
+		(pts
 			(xy 251.46 53.34) (xy 251.46 58.42)
 		)
 		(stroke
@@ -1004,6 +1024,16 @@
 			(type default)
 		)
 		(uuid "a17746b3-7dac-4669-97dc-00c7e19cf1ff")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1bcf850-fcf1-4acd-b1e1-391527d1b365")
 	)
 	(wire
 		(pts
@@ -2247,6 +2277,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Imon" input
+			(at 114.3 90.17 180)
+			(uuid "939d82f8-273d-49d5-91f4-166d33896764")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
