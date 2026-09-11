@@ -7958,7 +7958,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "311-20.0KLRCT-ND"
+		(property "Digikey PN" "311-1.00KLRCT-ND"
 			(at 93.98 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10510,7 +10510,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "311-820LRCT-ND"
+		(property "Digikey PN" ""
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)

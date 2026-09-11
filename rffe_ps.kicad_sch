@@ -3458,6 +3458,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-1043-1-ND"
+			(at 231.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc1fe888-2a2f-4c0f-b312-b31d9175afea")
 		)
@@ -5809,6 +5820,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 231.14 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1043-1-ND"
 			(at 231.14 82.55 0)
 			(hide yes)
 			(show_name no)

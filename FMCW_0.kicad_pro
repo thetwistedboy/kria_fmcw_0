@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.1524,
           "min_island_area": 9.99999999996,
-          "min_thickness": 0.1524,
+          "min_thickness": 0.2032,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -241,7 +241,7 @@
           "corner_style": 1,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
-          "single_sided": false,
+          "single_sided": true,
           "spacing": 0.6
         }
       },
@@ -757,6 +757,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1024,17 +1025,8 @@
     },
     "tuning_profiles_impedance_geometric": [
       {
-        "enable_time_domain_tuning": true,
-        "layer_entries": [
-          {
-            "bottom_reference_layer": "UNDEFINED",
-            "delay": 5584201,
-            "diff_pair_gap": 0,
-            "signal_layer": "B.Cu",
-            "top_reference_layer": "In4.Cu",
-            "width": 183770
-          }
-        ],
+        "enable_time_domain_tuning": false,
+        "layer_entries": [],
         "profile_name": "eth_rgmii",
         "target_impedance": 50.0,
         "type": 0,
