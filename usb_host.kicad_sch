@@ -6171,6 +6171,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 228.6 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "f9a10721-e9ab-481d-9ca2-ab40c5a62f0d")
 		)
@@ -6873,6 +6884,17 @@
 		)
 		(property "Description" "2 resistor network, parallel topology"
 			(at 86.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "Y5270CT-ND"
+			(at 86.36 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8054,6 +8076,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 228.6 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "bd7db449-3b1c-4e3d-bc9f-1c219febc92c")
 		)
@@ -8142,6 +8175,17 @@
 			)
 		)
 		(property "Description" "Current limited 1A power switch, single channel, SOT-23-5"
+			(at 111.76 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "31-AP22816AKEWT-7CT-ND"
 			(at 111.76 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8481,6 +8525,17 @@
 		)
 		(property "Description" "4 resistor network, parallel topology"
 			(at 228.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 228.6 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9013,6 +9068,17 @@
 			)
 		)
 		(property "Description" "Hi-Speed USB Host, Device or OTG PHY with ULPI Interface"
+			(at 187.96 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "638-1034-ND"
 			(at 187.96 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10510,7 +10576,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "Digikey PN" "311-1.00MLRCT-ND"
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)

@@ -2217,6 +2217,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "CKN9559-ND"
+			(at 69.85 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fdc61ccf-5d03-427a-ada8-ba3d1268bde8")
 		)
@@ -2297,6 +2308,17 @@
 		)
 		(property "Description" "2V7 - 19V, 0.125A - 2A eFuse Protection Switch, SO-8"
 			(at 119.38 73.152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-TPS259620DDARCT-ND"
+			(at 119.38 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

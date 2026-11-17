@@ -2539,6 +2539,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BAD REPLACE WITH OPEN DRAIN PART"
+		(exclude_from_sim no)
+		(at 213.614 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 25 1)
+			)
+		)
+		(uuid "a0981451-df0f-4fc3-b8c7-a7bcc221b925")
+	)
+	(text "BAD REPLACE WITH OPEN DRAIN PART"
+		(exclude_from_sim no)
+		(at 213.868 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 25 1)
+			)
+		)
+		(uuid "e992e6c5-0a77-4cf3-9630-c7f0233345f9")
+	)
 	(junction
 		(at 57.15 20.32)
 		(diameter 0)
@@ -4496,6 +4522,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "P49.9KLCT-ND"
+			(at 151.13 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "014ccd72-bc23-4413-af4f-cf006f01518c")
 		)
@@ -5180,6 +5217,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "311-100KLRCT-ND"
+			(at 151.13 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1eb94588-3cd7-4335-bbd2-245a1130947c")
 		)
@@ -5647,6 +5695,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "490-13249-1-ND"
+			(at 162.56 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eae3a865-4100-474a-9a75-d55429ec9d91")
 		)
@@ -5719,6 +5778,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-26.1KLRCT-ND"
 			(at 74.93 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6172,6 +6242,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "490-13249-1-ND"
+			(at 171.45 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe877f1d-4db1-4af6-a98a-11067bf892e3")
 		)
@@ -6336,6 +6417,17 @@
 			)
 		)
 		(property "Description" "3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6"
+			(at 114.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-46237-1-ND"
 			(at 114.3 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6860,6 +6952,17 @@
 			)
 		)
 		(property "Description" "3-V to 26-V, 20-A, synchronous D-CAP buck controller with eco-mode"
+			(at 91.44 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-51985-1-ND"
 			(at 91.44 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7548,6 +7651,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "490-13249-1-ND"
 			(at 162.56 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8448,6 +8562,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "541-5.23LLCT-ND"
+			(at 129.54 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f57918f1-4f68-48d4-9229-d56ab0e191e5")
 		)
@@ -8860,6 +8985,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "490-1308-1-ND"
 			(at 179.07 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9552,6 +9688,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "490-3244-1-ND"
+			(at 66.04 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d343144f-74fe-4d29-990f-66b4900d1777")
 		)
@@ -9906,6 +10053,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "160-1436-1-ND"
+			(at 262.89 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09a443ee-5d70-4e92-b2b5-25ba5136682d")
 		)
@@ -9988,6 +10146,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "490-3244-1-ND"
+			(at 198.12 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93915ac5-f208-43aa-93f4-737eccdf2091")
 		)
@@ -10025,7 +10194,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10"
 			(at 191.77 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10059,6 +10228,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 191.77 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0LRCT-ND"
+			(at 191.77 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10150,6 +10330,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "RMCF0402FT71K5CT-ND"
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ec0e640b-8a14-46e5-953a-424658773eba")
 		)
@@ -10222,6 +10413,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-100KLRCT-ND"
 			(at 151.13 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10669,6 +10871,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "311-200KLRCT-ND"
+			(at 74.93 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aabd7b3f-b2bb-4210-b644-06134a4e9498")
 		)
@@ -10818,6 +11031,17 @@
 			)
 		)
 		(property "Description" "3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6"
+			(at 114.3 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-46237-1-ND"
 			(at 114.3 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11427,6 +11651,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 74.93 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-100KLRCT-ND"
 			(at 74.93 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12188,6 +12423,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "311-100KLRCT-ND"
+			(at 147.32 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "683d004a-bc4a-4519-9671-e1e0f751b660")
 		)
@@ -12338,6 +12584,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 39.37 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "RMCF0402FT866KCT-ND"
 			(at 39.37 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12601,6 +12858,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "541-1.00LLCT-ND"
+			(at 179.07 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e5b05c3a-941b-450f-ad95-4fba6d648382")
 		)
@@ -12673,6 +12941,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 50.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-39.0KLRCT-ND"
 			(at 50.8 50.8 0)
 			(hide yes)
 			(show_name no)

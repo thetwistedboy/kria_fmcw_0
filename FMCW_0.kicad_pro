@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -497,6 +500,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -566,7 +570,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
       "/fpga/eth/e_rx_clk": [
         "ETH_RGMII"
@@ -604,78 +608,6 @@
       "/fpga/eth/e_tx_d3": [
         "ETH_RGMII"
       ],
-      "/fpga/eth/eth_rx_clk": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_rx_ctrl": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_rx_d0": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_rx_d1": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_rx_d2": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_rx_d3": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_tx_clk": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_tx_ctrl": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_tx_d0": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_tx_d1": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_tx_d2": [
-        "ETH_RGMII"
-      ],
-      "/fpga/eth/eth_tx_d3": [
-        "ETH_RGMII"
-      ],
-      "/fpga/fpga_ja/ulpi_clkout": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_d0": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_d1": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_d2": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_d3": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_d4": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_d5": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_d6": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_d7": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_dir": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_nxt": [
-        "ULPI"
-      ],
-      "/fpga/fpga_ja/ulpi_stp": [
-        "ULPI"
-      ],
       "/fpga/usb_host/u_clkout": [
         "ULPI"
       ],
@@ -711,42 +643,6 @@
       ],
       "/fpga/usb_host/u_stp": [
         "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_clkout": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_d0": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_d1": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_d2": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_d3": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_d4": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_d5": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_d6": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_d7": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_dir": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_nxt": [
-        "ULPI"
-      ],
-      "/fpga/usb_host/ulpi_stp": [
-        "ULPI"
       ]
     },
     "netclass_patterns": []
@@ -755,7 +651,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -768,7 +664,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -829,13 +725,37 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey PN",
+          "name": "Digikey PN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -953,7 +873,7 @@
         "uuid": "53b43a51-f58c-43fe-a3da-260b9c1efe40"
       }
     ],
-    "used_designators": "LCD1,R1-103,SW1-4,RN1-14,U1-31,D1-4,C1-133,H1-6,BT1,J1-9,Y1-3,#PWR1-223,#PWR269,L1-13,P1,FB1-4",
+    "used_designators": "#PWR1-223,#PWR269,BT1,C1-133,D1-4,FB1-4,H1-6,J1-9,L1-13,LCD1,P1,R1-103,RN1-14,SW1-4,TP1-11,U1-31,Y1-3",
     "variants": []
   },
   "sheets": [

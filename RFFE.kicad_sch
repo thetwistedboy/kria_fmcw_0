@@ -901,6 +901,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "PAT126CT-ND"
+			(at 156.21 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95cec9c8-d988-45f2-9c84-ca605d381ca8")
 		)
@@ -1148,6 +1159,17 @@
 			)
 		)
 		(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 6dB Attenuation, PAT1220"
+			(at 157.48 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "PAT126CT-ND"
 			(at 157.48 68.58 0)
 			(hide yes)
 			(show_name no)

@@ -2314,6 +2314,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "MCP3911A0T-E/MLCT-ND"
+			(at 176.53 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "6edd2283-d956-462a-ba73-34c5e4b4b45d")
 		)
@@ -2807,6 +2818,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 116.84 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "b81cc361-69d3-4d61-a27c-af0a7626a1a7")
 		)
@@ -3092,6 +3114,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 116.84 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "bdd4ea64-052f-4c24-9c95-ee22db8126ee")
 		)
@@ -3364,6 +3397,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 116.84 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "bdd4ea64-052f-4c24-9c95-ee22db8126ef")
 		)
@@ -3458,6 +3502,17 @@
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
 			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 116.84 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3660,6 +3715,17 @@
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
 			(at 116.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 116.84 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4252,6 +4318,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 116.84 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "164e2907-446a-48c6-8541-bca0be3c7c4b")
 		)
@@ -4551,6 +4628,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 116.84 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "bdd4ea64-052f-4c24-9c95-ee22db8126f2")
 		)
@@ -4645,6 +4733,17 @@
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
 			(at 116.84 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "Y7220CT-ND"
+			(at 116.84 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

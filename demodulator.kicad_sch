@@ -3478,6 +3478,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "505-ADL5380ACPZ-R7CT-ND"
+			(at 129.54 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "21"
 			(uuid "ee0b33ae-83ba-473d-8467-41b9c8b07628")
 		)
@@ -3769,7 +3780,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3857,7 +3868,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5521,6 +5532,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "712-2450FB15A0050001ECT-ND"
+			(at 62.23 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "8aa7f897-8b2d-492a-804c-aed3e7f62efe")
 		)
@@ -6630,6 +6652,17 @@
 			)
 		)
 		(property "Description" "4.9-5.9GHz 1:1 RF Transformer, Unbalanced to Balanced"
+			(at 83.82 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "712-2450FB15A0050001ECT-ND"
 			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)

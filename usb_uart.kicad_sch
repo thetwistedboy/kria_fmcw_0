@@ -3027,6 +3027,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "Y5270CT-ND"
+			(at 113.03 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c99826e2-2d9d-4ccb-a520-9e4fe8b67164")
 		)
@@ -3757,6 +3768,17 @@
 		)
 		(property "Description" "2 resistor network, parallel topology"
 			(at 196.85 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "Y5270CT-ND"
+			(at 196.85 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,7 +5041,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "846-SML-D12Y8WT86CT-ND"
+		(property "Digikey PN" "160-1437-1-ND"
 			(at 219.71 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -5129,7 +5151,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "846-SML-D12Y8WT86CT-ND"
+		(property "Digikey PN" "160-1437-1-ND"
 			(at 233.68 107.95 90)
 			(hide yes)
 			(show_name no)

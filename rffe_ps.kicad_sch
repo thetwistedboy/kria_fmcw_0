@@ -1930,6 +1930,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BAD REPLACE WITH OPEN DRAIN PART"
+		(exclude_from_sim no)
+		(at 247.65 131.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 25 1)
+			)
+		)
+		(uuid "842a8354-c488-4ed5-889d-3f2a09b13962")
+	)
+	(text "BAD REPLACE WITH OPEN DRAIN PART"
+		(exclude_from_sim no)
+		(at 248.158 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 25 1)
+			)
+		)
+		(uuid "db1091b3-e65d-492f-b7b2-888fd9d533ab")
+	)
 	(junction
 		(at 167.64 74.93)
 		(diameter 0)
@@ -2796,6 +2822,17 @@
 			)
 		)
 		(property "Description" "1A, 16V Precision Linear Voltage Regulator, with enable pin, Fixed Output 3.3V, VSON-8"
+			(at 201.93 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-TLV76733QWDRBRQ1CT-ND"
 			(at 201.93 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4360,6 +4397,17 @@
 			)
 		)
 		(property "Description" "1A, 16V Precision Linear Voltage Regulator, with enable pin, Fixed Output 5.0V, VSON-8"
+			(at 201.93 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-TLV76750QWDRBRQ1CT-ND"
 			(at 201.93 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6151,6 +6199,17 @@
 			)
 		)
 		(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
+			(at 81.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "31-AP63201QWU-7CT-ND"
 			(at 81.28 88.9 0)
 			(hide yes)
 			(show_name no)

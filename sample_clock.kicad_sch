@@ -1558,6 +1558,17 @@
 				)
 			)
 		)
+		(property "Digikey PN" "50-ECS-2520MV-160-BN-TRCT-ND"
+			(at 82.55 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "b908ef6d-ae8e-47e8-9e61-c72c93b9ce2d")
 		)
@@ -2100,6 +2111,17 @@
 		)
 		(property "Description" "1.8V,2.5V or 3.3V asynchronous 3 channel output LVCMOS buffer"
 			(at 158.496 86.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-LMK1C1103APWRCT-ND"
+			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
